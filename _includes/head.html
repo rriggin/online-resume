@@ -16,7 +16,7 @@
 {%- if site.open %}
 <title>{{ site.title }}</title>
 {%- else %}
-<title>Online Resume</title>
+<title>Ryan Riggin - Resume</title>
 {%- endif %}
 
 <link rel="stylesheet" href="{{ "/assets/fontawesome/css/all.min.css" | relative_url }}">
@@ -33,20 +33,4 @@
 
   gtag('config', '{{ site.analytics.google }}');
 </script>
-{%- endif %}
-
-{%- if site.analytics.cloudflare %}
-<!-- Cloudflare Web Analytics -->
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
-  data-cf-beacon='{"token": "{{ site.analytics.cloudflare }}"}'></script>
-<!-- End Cloudflare Web Analytics -->
-{%- endif %}
-
-{% assign umami = site.analytics.umami %}
-{%- if umami.script and umami.website_id %}
-<!-- Umami Web Analytics -->
-<script async defer src="{{ umami.script }}"
-  data-website-id="{{ umami.website_id }}"
-  {% if umami.domains %} data-domains="{{ umami.domains }}" {% endif %}></script>
-<!-- End Umami Web Analytics -->
 {%- endif %}

@@ -260,7 +260,7 @@ skill:
         - LAMP/Laravel
         - Git
     - name: Marketplaces
-        item: 
+      item: 
         - Amazon Seller Central
         - Walmart
 

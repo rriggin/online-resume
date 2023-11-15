@@ -237,8 +237,7 @@ skill:
         - TikTok Ads
         - Apple Search Ads
         - Amazon Advertising
-        - Stack Adapt [Programmatic]
-        - Walmart 
+        - Stack Adapt
     - name: Analytics / UX
       item:
         - Google Analytics
@@ -261,6 +260,9 @@ skill:
         - iOS
         - LAMP/Laravel
         - Git
+    - name: Marketplaces
+        - Amazon Seller Central
+        - Walmart
 
 
 education:

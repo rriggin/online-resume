@@ -3,13 +3,14 @@ basic:
   title: Fractional CMO, Tech Product Manager, Growth Marketer, UX/UA Analyst           # job title
   avatar:
     show: true                       # show or hide avatar
+    path: /assets/images/ryanvest.png # avatar file path
 
 contact:
   # meta
   location: Kansas City, MO # location
   email: riggin@gmail.com    # email address
   phone: 913-593-1084 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  # website: nplus1.digital     # site URL without schema, like example.com, will automatically prepand "https://"
+  website:      # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday

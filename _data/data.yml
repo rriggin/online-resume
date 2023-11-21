@@ -3,7 +3,6 @@ basic:
   title: Fractional CMO, Tech Product Manager, Growth Marketer, UX/UA Analyst           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/ryanvest.png # avatar file path
 
 contact:
   # meta
